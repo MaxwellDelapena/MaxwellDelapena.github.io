@@ -1,0 +1,391 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body  {	
+	background-image: url("../images/berry.jpg");
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+div#frame {
+	margin: 25px auto;
+	padding: 20px 30px 20px 20px;
+	width: 50%;
+	min-width: 900px;
+	background-color: #ffffff;	
+	background-image: linear-gradient(#ffffff 20%, #fdf7e8 70%, #ffffff 100%);
+	border: 2px solid #009926;
+	border-radius: 8px;
+	box-shadow: 0px 0px 90px 2px #008020;
+}
+
+p {
+	margin: 20px 0px;
+}
+
+a {
+	color: #008020; 
+}
+
+a:link, a:visited { 
+	text-decoration: none; 
+}
+
+a:hover, a:focus { 
+    text-decoration: underline; 
+}
+
+/* Header */
+header {
+	height: 160px;
+	border-bottom: 2px solid #e8b417;
+}
+	
+header img { 
+	float: left; 
+} 
+
+header div#header-line-1 {
+	font-size: 300%;
+	font-weight: bold;	
+	text-align: right;
+	color: #ecc03b;
+	text-shadow: 2px 2px 2px black;
+}
+
+header div#header-line-2 {
+	font-size: 130%;
+	font-weight: bold;
+	text-align: right;
+	font-style: italic;
+	color: #008020;
+}
+
+/* aside */
+aside {
+	width: 230px;
+	float: left;
+	margin: 30px 10px 0px 0px;
+}
+
+aside div.sidebar-title {
+	font-size: 115%;
+	font-weight: bold;
+	color: #d1a215;
+}
+
+aside ul {
+	margin: 15px 0px 0px 15px;
+}
+
+aside ul li {
+	margin: 15px 0px 0px 0px;
+}
+
+aside ul li a{
+	font-style: italic;
+	font-size: 90%;
+}
+
+/* Main */
+main {
+	margin: 20px 0;
+	padding-left: 20px;
+	float: left;
+	width: 638px;
+	min-height: 600px;
+	border-left: 2px solid #e8b417;
+}
+
+main h1 { 
+	margin: 0;
+	font-size: 200%;
+}
+
+main h1:first-letter { 
+	font-size: 240%;
+}
+
+main h2 {
+	margin: 25px 0px;
+	font-size: 125%;
+}
+
+main h3 {	
+	font-size: 110%;
+}
+
+main ul#product-categories {
+	list-style-type: none;
+}
+
+main ul#product-categories li {
+	margin: 35px 0px;
+}
+
+main ul#product-categories h3 {
+	margin-top: 10px;
+}
+
+main ul#product-categories p{
+	margin-top: 5px;
+}
+
+main ul#product-categories img {
+	border: 2px solid #e8b417;
+	border-radius: 10px;
+	box-shadow: 0px 0px 6px 2px #ecc03b;
+}
+
+main legend#bold {
+	font-style: bold;
+	font-size: 85%;
+	color: grey;
+}
+
+/* Main Body Memeber Information (Assignment #3) */
+
+main div#member_information {
+	text-align: center;
+	padding: 2px;
+	font-size: 90%;
+}
+
+main fieldset#member_info {
+	margin-top: 25px;
+}
+
+form#e_mail {
+	position: relative;
+	left: -75px;
+	padding: 4px;
+}
+
+form#f_name {
+	position: relative;
+	left: -88px;
+	padding: 4px;
+}
+
+input#f_name {
+	box-shadow: 0px 0px 2px 2px #ecc03b;
+	border: 1px;
+}
+
+form#l_name {
+	position: relative;
+	left: -87px;
+	padding: 4px;
+}
+
+input#l_name {
+	box-shadow: 0px 0px 2px 2px #ecc03b;
+	border: 1px;
+}
+
+form#address {
+	position: relative;
+	left: -80px;
+	padding: 4px;
+}
+
+form#city {
+	position: relative;
+	left: -65px;
+	padding: 4px;
+}
+
+input#city {
+	box-shadow: 0px 0px 2px 2px #ecc03b;
+	border: 1px;
+}
+
+form#province {
+	position: relative;
+	left: -81px;
+	padding: 4px;
+}
+
+input#province {
+	box-shadow: 0px 0px 2px 2px #ecc03b;
+	border: 1px;
+}
+
+form#postal_code {
+	position: relative;
+	left: -92px;
+	padding: 4px;
+}
+
+input#postal_code {
+	box-shadow: 0px 0px 2px 2px #ecc03b;
+	border: 1px;
+}
+
+form#phone_number {
+	position: relative;
+	left: -102px;
+	padding: 4px;
+}
+
+/* Main Body Ordering Information (Assignment #3) */
+
+main div#ordering_information {
+	text-align: center;
+	padding: 2px;
+	font-size: 90%;
+}
+
+form#event {
+	position: relative;
+	left: -60px;
+	padding: 4px;
+}
+
+form#order_type {
+	position: relative;
+	left: -115px;
+	padding: 4px;
+}
+
+form#num_of_tickets {
+	position: relative;
+	left: -112px;
+	padding: 4px;
+}
+
+/* Main Body Payment Method (Assignment #3) */
+
+label#bill_me {
+	position: relative;
+	left: 40px;
+}
+
+input#bill_me {
+	position: relative;
+	left: 40px;
+}
+
+label#credit_card {
+	position: relative;
+	left: 85px;
+}
+
+input#credit_card {
+	position: relative;
+	left: 85px;
+}
+
+main div#payment_method {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 90%;
+}
+
+main select#month {
+	width: 7em;
+}
+
+main select#year {
+	width: 5em;
+}
+
+/* Main Body Credit Card Information (Assignment #3) */
+
+main div#credit_card_info {
+	text-align: center;
+	font-size: 90%;
+}
+
+form#card_type {
+	position: relative;
+	left: -125px;
+	padding: 4px;
+}
+
+form#card_number {
+	position: relative;
+	left: -91px;
+	padding: 4px;
+}
+
+input#card_number {
+	box-shadow: 0px 0px 2px 2px #ecc03b;
+	border: 1px;
+}
+
+form#expiration_date {
+	position: relative;
+	left: -112px;
+	padding: 4px;
+}
+
+/* Main Body Submit Your Order (Assignment #3) */
+
+input#submit_button {
+	position: relative;
+	left: 170px;
+	width: 10em;
+}
+
+input#reset_button {
+	position: relative;
+	left: 180px;
+	width: 10em;
+}
+
+main fieldset#submit_order {
+	margin-bottom: 25px;
+}
+
+main div#submit_order {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 90%;
+}
+
+/* the styles for the navigation menu */
+#nav_menu {
+	margin-top: 2px;
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	position: relative;
+}
+
+#nav_menu ul li {
+	float: left;
+}
+
+#nav_menu ul li a {
+    background-image: linear-gradient(#fdf7e8 15%, #ffffff 55%, #fdf7e8 100%);
+	width: 180px;
+	padding: 1em 0;
+	display: block;
+    text-align: center;    
+    text-decoration: none;  
+	font-weight: bold;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	color: #d1a215;
+}
+
+#nav_menu a.current, #nav_menu a.current:hover, #nav_menu a.current:focus {
+	color: #d1a215;	
+	font-weight: bold;
+}
+
+/* Footer */
+footer {
+	clear: left;
+	border-top: 2px solid #e8b417;
+}
+
+footer p {
+	font-size: 80%;
+	text-align: center;
+}
